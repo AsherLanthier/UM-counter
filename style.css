@@ -41,3 +41,9 @@
 .um_detected{
     background-color: rgb(224, 92, 92);
 }
+
+#auto_btn{
+    font-size: 20px;
+    height: 70px;
+    width: 300px;
+}
