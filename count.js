@@ -60,10 +60,10 @@ function toggle_auto(){
     auto_times_presed ++;
     if (auto_times_presed % 2 == 0){
         auto_on = false
-        auto_button.textContent() = "Auto Recognition On"
+        auto_button.textContent = "Auto Recognition Off";
     }
     else{
         auto_on = true;
-        auto_button.textContent() = "Auto Recognition Off"
+        auto_button.textContent = "Auto Recognition On";
     }
 }
