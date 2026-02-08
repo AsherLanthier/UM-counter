@@ -4,13 +4,16 @@
         <title>"Um" Counter</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.min.js"></script>
+        <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
     </head>
     
     <body>
         <div id="content" class="normal">
             <h1 id="num_ums">0</h1>
-            <button id="new_um" class="button" onclick="add_new_um()">Um</button>
+            <button id="new_um" class="button" onclick="add_new_um(1)">Um</button>
             <button id="reset_btn" class="button" onclick="reset_ums()">RESET</button>
+            <button id="auto_btn", class="button", onclick="toggle_auto()">Auto Recognition On</button>
             <script src="count.js"></script>
         </div>
     </body>
